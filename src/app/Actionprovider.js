@@ -36,7 +36,7 @@ class Actionprovider {
                     { role: "system", content: "You are a medical expert who is helping the user to get the best treatment for their condition" },
                     { role: "user", content: prompt },
                 ],
-                temperature: 0.5,
+                temperature: 0.7,
                 max_tokens: 50,
             });
             return ChatCompletion.choices[0].message.content;
