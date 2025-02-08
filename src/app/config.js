@@ -1,9 +1,9 @@
 import { createChatBotMessage } from "react-chatbot-kit";
 
 const config ={
-    botName: "card expert",
+    botName: "medical expert",
     initialMessages:[
-        createChatBotMessage("Hello I'm a charted accountant ,how can i help you")
+        createChatBotMessage("Hello I'm a medical expert ,how can i help you?")
     ]
 }
 

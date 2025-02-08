@@ -33,7 +33,7 @@ class Actionprovider {
             const ChatCompletion = await openai.chat.completions.create({
                 model: "gpt-3.5-turbo",
                 messages: [
-                    { role: "system", content: "You are a credit card advisor for the India market" },
+                    { role: "system", content: "You are a medical expert who is helping the user to get the best treatment for their condition" },
                     { role: "user", content: prompt },
                 ],
                 temperature: 0.5,
@@ -80,3 +80,4 @@ class Actionprovider {
 }
 
 export default Actionprovider;
+
