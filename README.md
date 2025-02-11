@@ -1,81 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 Medical AI Chatbot  
 
-## Getting Started
+## 📌 Overview  
 
-First, run the development server:
+The **Medical AI Chatbot** is an intelligent assistant designed to provide **reliable and context-aware medical information** using advanced **Natural Language Processing (NLP)**. Powered by the **DeepSeek V3 model API**, this chatbot aims to assist users in understanding health conditions, symptoms, and general medical guidance.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🔍 What Does It Do?  
 
-```
+- 🏥 **Symptom Analysis:** Provides insights based on user-described symptoms.  
+- 💊 **Medical Guidance:** Suggests possible causes and general treatment options.  
+- 📚 **Health Information:** Explains medical terms, conditions, and procedures.  
+- 🔬 **AI-Powered NLP Responses:** Generates natural and human-like responses tailored to user queries.  
+- ⚕️ **User-Friendly Experience:** Engages users with a conversational and interactive interface.  
 
+## 🚨 Disclaimer  
 
+This chatbot is **not a substitute for professional medical advice, diagnosis, or treatment**. It serves as an **informational assistant** and should not be used for emergencies or critical health conditions. Always consult a **licensed healthcare professional** for medical concerns.  
 
-# Chatbot Application
+## 💡 How It Works  
 
-This is a chatbot application built using **React** and **OpenAI API**. The chatbot interacts with users and generates responses based on the input prompt. The OpenAI API is used to provide dynamic and relevant responses to user queries, simulating an intelligent assistant for various tasks.
+1. **User Input:** The chatbot receives a medical-related query.  
+2. **AI Processing:** The DeepSeek V3 model processes the input using NLP techniques.  
+3. **Response Generation:** The chatbot provides a detailed and context-aware response.  
+4. **User Interaction:** The conversation continues based on follow-up questions.  
 
-## Features
+## 🌍 Use Cases  
 
-- **Real-time Chat Interface**: Allows users to chat with the chatbot.
-- **OpenAI Integration**: The chatbot uses the OpenAI API to generate human-like responses based on user input.
-- **Customizable**: Easily extendable with new features or use cases.
-- **Timer-Based Message Delivery**: The bot sends responses in intervals to simulate a conversational experience.
-- **Supports Multi-Line Responses**: Handles multi-line responses from the OpenAI API.
+- **Personal Health Awareness**: Helps users understand symptoms before consulting a doctor.  
+- **Educational Tool**: Assists students and researchers in learning medical concepts.  
+- **First-Level Inquiry**: Provides basic medical information before seeking expert consultation.  
 
-## Tech Stack
-
-- **Frontend**: React
-- **Backend**: OpenAI API (GPT-3.5-turbo model)
-- **Styling**: Tailwind CSS (optional based on your project setup)
-- **State Management**: React `useState`, `useEffect`
-
-## Installation
-
-### 1. Clone the repository:
-
-git clone https://github.com/your-username/chatbot-application.git
-cd chatbot-application
-
-2. Install dependencies:
-  npm install
-
-3.  Set up OpenAI API Key:
-To connect the chatbot with the OpenAI API, you'll need to set up an API key from OpenAI. Once you have your API key, replace the placeholder in the Actionprovider.js file with your key:
-
-const openai = new OpenAI({
-    apiKey: "your-api-key-here",  // Replace with your actual OpenAI API key
-    baseURL: "https://api.aimlapi.com",
-    dangerouslyAllowBrowser: true,
-});
-
-
-4. 4. Run the application:
-  npm start
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project enhances **accessibility to medical knowledge**, empowering users with AI-driven insights while emphasizing the importance of professional healthcare.  
